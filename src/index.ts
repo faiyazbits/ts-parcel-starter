@@ -1,5 +1,3 @@
-function callme(s: string) {
-  return '3';
+export default function simpleFunction(s: string) {
+  return s;
 }
-
-document.getElementById('root').innerHTML = callme('d');
