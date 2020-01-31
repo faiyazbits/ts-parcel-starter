@@ -1,9 +1,9 @@
-import simpleFunction from '../src';
+import { simpleFunction } from "../src";
 
-test('canary', () => {
+test("canary", () => {
   expect(true).toEqual(true);
 });
 
-test('simple', () => {
-  expect(simpleFunction('sample')).toEqual('sample');
+test("simple", () => {
+  expect(simpleFunction("sample")).toEqual("sample");
 });

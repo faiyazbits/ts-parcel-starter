@@ -4,7 +4,8 @@
   "description": "typescript starter using parcel bundler,jest for testing,tslint for linting",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel serve index.html --open",
+    "build": "parcel build index.html",
     "test": "jest --coverage --colors",
     "prettify": "prettier --write *",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
