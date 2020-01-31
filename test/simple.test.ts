@@ -1,9 +1,11 @@
 import { simpleFunction } from "../src";
 
-test("canary", () => {
-  expect(true).toEqual(true);
-});
+describe("sample", () => {
+  it("canary", () => {
+    expect(true).toEqual(true);
+  });
 
-test("simple", () => {
-  expect(simpleFunction("sample")).toEqual("sample");
+  it("simple", () => {
+    expect(simpleFunction("sample")).toEqual("sample");
+  });
 });

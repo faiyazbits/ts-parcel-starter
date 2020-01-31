@@ -7,6 +7,7 @@
     "start": "parcel serve index.html --open",
     "build": "parcel build index.html",
     "test": "jest --coverage --colors",
+    "test:watch": "jest --coverage --colors --watch",
     "prettify": "prettier --write *",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
