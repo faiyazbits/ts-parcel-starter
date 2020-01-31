@@ -1,3 +1,6 @@
 export default function simpleFunction(s: string) {
-  return s;
+  return {
+    f: "g",
+    k: "t"
+  };
 }
