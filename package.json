@@ -1,0 +1,19 @@
+{
+  "name": "ts-jest-starter",
+  "version": "1.0.0",
+  "description": "typescript starter using parcel bundler,jest for testing,tslint for linting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "starter",
+    "parcel"
+  ],
+  "author": "faiyazbits",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
